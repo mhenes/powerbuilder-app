@@ -1,0 +1,202 @@
+//Author: Mark A. Henes II
+//Date: 12-06-2015
+//Document: DOCUMENT.txt
+//
+powerbuilder-app
+./menu/
+	./Info
+		./Purpose-Mission-Statement
+		./Usage-Disclosure
+		./Rights—and-Licensing
+		===>../../LICENSE.txt
+	./About
+		./Bio
+			*The-Why
+			*The-How
+				-Technology
+				-Community
+			*The-Who
+				-Community
+				*Contributors
+				*Supporters
+					-Coders
+					-Sponsors
+					-Backers
+				*Founders
+			*The-When
+				*Present
+					*The-Present-Concern
+					*The-Present-Demand
+					*Our-Present-Resources
+				*Milestones
+					*Past
+					*Present
+					*Future
+				*Future
+					*Vision
+					*Goal
+					*Timeline
+	./Tracking
+		./Track-Daily-Hours-Of-Sleep
+		./Track-Daily-Weight
+		./Track-Personal-Records
+		./Track-Workout-Rest-Days
+		./Track-Daily-Nutrition
+		./Track-Daily-Muscle-Size-Measurements
+            -Waist
+            -Arms
+            -Calves
+            -Legs
+            -Shoulders
+            -Chest
+            -Forearms
+		./Track-Daily-Subjective-Well-Being
+            -Mood
+	./Data
+		./Read
+			./csv
+			./xls
+			./xlsx
+		./Write
+			./csv
+			./xls
+			./xlsx
+		./Update
+			./Edit
+			./Save
+			./Save_As
+		./Delete
+			./Delete_Option
+			./Save_Backup_Copy
+			./Undo_Option
+		./Logs
+	./Progress
+        ./Comparision-Reports    
+            ./View-Progress-Trend-Any-Minute-Of—Any-Day
+            ./View-Progress-Trend-Comparison-Of-All-Tracking-Records
+            ./View-Progress-Trend—Comparison-Permutation-Matrix-Combination-Of-Any-Tracking-Records
+                ***Daily-Hours-Of-Sleep
+                    *Daily-Hours-Of-Sleep && Daily-Weight
+                    *Daily-Hours-Of-Sleep && Personal-Records
+                    *Daily-Hours-Of-Sleep && Workout-Rest-Days
+                    *Daily-Hours-Of-Sleep && Daily-Nutrition
+                    *Daily-Hours-Of-Sleep && Daily-Muscle-Size-Measurements
+                    *Daily-Hours-Of-Sleep && Daily-Subjective-Well-Being
+                ***Daily-Weight
+                    *Daily-Weight && Personal-Records
+                    *Daily-Weight && Workout-Rest-Days
+                    *Daily-Weight && Daily-Nutrition
+                    *Daily-Weight && Daily-Muscle-Size-Measurements 
+                    *Daily-Weight && Daily-Subjective-Well-Being
+                ***Personal-Records
+                    *Personal-Records && Workout-Rest-Days
+                    *Personal-Records && Daily-Nutrition
+                    *Personal-Records && Daily-Muscle-Size-Measurements
+                    *Personal-Records && Daily-Subjective-Well-Being	
+                ***Workout-Rest-Days
+                    *Workout-Rest-Days && Daily-Nutrition
+                    *Workout-Rest-Days && Daily-Muscle-Size-Measurements
+                    *Workout-Rest-Days && Daily-Subjective-Well-Being
+                ***Daily-Nutrition
+                    *Daily-Nutrition && Daily-Muscle-Size-Measurements
+                    *Daily-Nutrition && Daily-Subjective-Well-Being
+                ***Daily-Subjective-Well-Being
+            ./Highlights
+	./Help
+		./FAQ
+	./Contact
+		./General-Information
+			*Email
+			*Address
+		./Support
+			*Github
+			*Email
+		./Legal
+			*Email
+			*Rights-And-Use
+			*Patent-Information
+			*Trademark-Information
+			*CopyRight-Information
+		./Public-Relations
+			*Email
+		./Webmaster
+			*Email
+		./Donations
+			*PayPal
+			*Email
+./Database
+./Utilities
+	./Clean
+	./Debug
+	./Master-Logs
+		*Access
+		*SysLog
+		 -Performance
+		*ErrOut
+		*Master-Log
+	./Recover
+		*Crash-Copy
+		*Recover-Log
+	./Automation
+		*Backup
+		*Exit-Auto-Save
+		*Version-Control
+LICENSE.txt
+CONTRIBUTING.md
+index.html
+CHANGELOG.md
+DOCUMENT.txt
+README.md
+404.html
+LICENSE.md
+falcon.ico
+manifest.webapp
+crossdomain.xml
+humans.txt
+robots.txt
+./cgi-bin
+    ./py
+    ./sh
+    ./pl
+    ./master-logs
+./css
+	=>main.css
+	=>normalize.css
+./doc
+	=>extend.md
+	=>html.md
+	=>usage.md
+	=>css.md
+	=>js.md
+	=>README.md
+	=>crossdomain.md
+	=>fan.md
+	=>misc.md
+./img
+	./startup
+		=>startup-tablet-portrait-retina.png
+		=>startup-tablet-landscape-retina.png
+		=>startup-retina-4in.png
+		=>startup-retina.png
+		=>startup-tablet-portrait.png
+		=>startup-tablet-landscape.png
+		=>startup.png
+	./touch
+		=>touch-icon-196x196.png
+		=>touch-icon-128x128.png
+		=>touch-icon-60x60.png
+		=>apple-touch-icon-144x144-precomposed.png
+		=>apple-touch-icon-114x114-precomposed.png
+		=>apple-touch-icon-72x72-precomposed.png
+		=>apple-touch-icon-57x57-precomposed.png
+		=>apple-touch-icon-precomposed.png
+		=>apple-touch-icon.png
+./js
+	helper.js
+	plugins.js
+main.js
+	./vendor
+		=>jquery-2.1.0.js
+		=>jquery-2.1.0.min.map
+		=>jquery-2.1.0.min.js
+		=>modernizr-2.7.1.min.js

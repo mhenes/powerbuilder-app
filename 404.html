@@ -1,59 +1,99 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="utf-8">
-    <title>Page Not Found</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
-    <style>
+	<meta charset="UTF-8">
+	<title>PowerBuilder - App | Play Tetris! | 404</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="author" content="PowerBuilder"/>
+	<meta name="keywords" content="PowerBuilder"/>
+	<meta name="description" content="PowerBuilder"/>
+	
+	<!-- Favicon and touch icons -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="images/apple-touch-icon-57-precomposed.png">
+	
+	<!--stylesheets-->
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
 
-        * {
-            line-height: 1.5;
-            margin: 0;
-        }
-
-        html {
-            color: #888;
-            font-family: sans-serif;
-            text-align: center;
-        }
-
-        body {
-            left: 50%;
-            margin: -43px 0 0 -150px;
-            position: absolute;
-            top: 50%;
-            width: 300px;
-        }
-
-        h1 {
-            color: #555;
-            font-size: 2em;
-            font-weight: 400;
-        }
-
-        p {
-            line-height: 1.2;
-        }
-
-        @media only screen and (max-width: 270px) {
-
-            body {
-                margin: 10px auto;
-                position: static;
-                width: 95%;
-            }
-
-            h1 {
-                font-size: 1.5em;
-            }
-
-        }
-
-    </style>
 </head>
+
 <body>
-    <h1>Page Not Found</h1>
-    <p>Sorry, but the page you were trying to view does not exist.</p>
+	<div class="global-border"></div>
+    <div class="left">
+		<div class="content">
+			<div class="logo">
+				<a href="http://themeforest.net/user/SquirrelLabs/portfolio?ref=SquirrelLabs"><img src="images/logo.png" alt="logo"/></a>
+			</div>
+				<h2>We are now implement new features<br />please be back in:</h2>
+				<section id="timer" class="center">
+					<p id="message-timer"></p>
+					<div id="days" class="timer_box"></div>
+					<div id="hours" class="timer_box"></div>
+					<div id="minutes" class="timer_box"></div>
+					<div id="seconds" class="timer_box"></div>
+				</section><!-- end #timer -->
+				
+				<a class="btn-orange" href="http://powerbuilder.me">To The Main Page</a>
+				<a class="btn-ocean" href="http://powerbuilder.me">BUY ITEM</a>
+			<!--socials-->
+			<div class="social">
+				<a href="http://facebook.com/powerbuilder" title="Facebook"><img src="images/social/facebook.png" alt="facebook"/></a>
+				<a href="http://powerbuilder.me" title="Twitter"><img src="images/social/twitter.png" alt="twitter"/></a>
+				<a href="http://powerbuilder.me" title="Skype"><img src="images/social/skype.png" alt="skype"/></a>
+				<a href="http://powerbuilder.me" title="Pinterest"><img src="images/social/pinterest.png" alt="pinterest"/></a>
+				<a href="http://powerbuilder.me" title="Icq"><img src="images/social/icq.png" alt="icq"/></a>
+				<a href="http://powerbuilder.me" title="Dropbox"><img src="images/social/dropbox.png" alt="dropbox"/></a>
+				<a href="#" title="Soundcloud"><img src="images/social/soundcloud.png" alt="soundcloud"/></a>
+				<a href="#" title="Instagram"><img src="images/social/instagram.png" alt="instagram"/></a>
+				<a href="#" title="Google Plus"><img src="images/social/google.png" alt="google plus"/></a>
+			</div><!--end socials-->
+		</div>
+    </div>
+    <div class="right">
+	    <div class="content">
+			<div id="main">
+			  <div id="left" class="border">
+				<table id="container"></table>
+			  </div>
+
+			  <div id="right">
+				<div id="info">
+				  <div id="score">Score: 0</div>
+				  <div id="level">Level: 0</div>
+				  <div id="lines">Lines: 0</div>
+				</div>
+
+				<div class="border-mini">
+				  <table id="preview"></table>
+				</div>
+
+				<div id="controls">
+				  <a href="javascript:;" id="play">Start</a>
+
+				  <div id="keysinfo">
+					<strong>CONTROLS:</strong>
+					<p>
+					  ARROWS = [ Left, Right, Down ]<br>
+					  SPACEBAR = [ Rotate ]<br>
+					  ENTER = [ Pause, Resume ]
+					</p>
+					<p class="small">Tip: Hold the down key and <br>earn extra points.</p>
+				  </div>
+				</div>
+			  </div>
+			</div>
+		</div>
+    </div>
+	<!-- JavaScript -->
+	<script src='js/engine.js' type="text/javascript"></script>
+	<script src='js/blitz.js' type="text/javascript"></script>
+	<script src="js/index.js" type="text/javascript"></script>
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/timer.js" type="text/javascript"></script>
 </body>
+
 </html>
-<!-- IE needs 512+ bytes: http://blogs.msdn.com/b/ieinternals/archive/2010/08/19/http-error-pages-in-internet-explorer.aspx -->

@@ -6,7 +6,7 @@ Mission Statement:
   -Provide High Quality analysis of health and fitness data for use with Powerlifting and BodyBuilding primarily.
 
 Features:
-Tracking
+*Tracking
  * Daily Hours of Sleep
  * Daily Muscle Size Measurements
  * Daily Nutrition
@@ -14,8 +14,8 @@ Tracking
  * Daily Weight
  * Personal Records
  * Workout/Rest Days
-Progress Reporting
-Comparison Reports of Tracking
+*Progress Reporting
+*Comparison Reports of Tracking
 
 ## Install Instructions - Read INSTALL.txt
 

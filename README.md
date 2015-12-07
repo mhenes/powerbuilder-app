@@ -14,7 +14,7 @@ Features:
  * Daily Weight
  * Personal Records
  * Workout/Rest Days
-* Progress Reporting
+* Progress Reports
 * Comparison Reports of Tracking
 
 ## Install Instructions - Read INSTALL.txt

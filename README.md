@@ -7,13 +7,13 @@ Mission Statement:
 
 Features:
 Tracking
-  Daily Hours of Sleep
-  Daily Muscle Size Measurements
-  Daily Nutrition
-  Daily Subjective Well Being
-  Daily Weight
-  Personal Records
-  Workout/Rest Days
+ * Daily Hours of Sleep
+ * Daily Muscle Size Measurements
+ * Daily Nutrition
+ * Daily Subjective Well Being
+ * Daily Weight
+ * Personal Records
+ * Workout/Rest Days
 Progress Reporting
 Comparison Reports of Tracking
 

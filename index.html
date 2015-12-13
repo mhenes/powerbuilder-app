@@ -2,8 +2,8 @@
 <html class="no-js">
     <head>
         <meta charset="utf-8">
-        <title></title>
-        <meta name="description" content="">
+        <title>PowerBuilder - Software App for Elite Athletes, Powerlifters, and BodyBuilders.</title>
+        <meta name="description" content="PowerBuilder.me | Software App | for Elite Athletes, Powerlifters, and BodyBuilders.">
         <meta name="HandheldFriendly" content="True">
         <meta name="MobileOptimized" content="320">
         <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
@@ -24,7 +24,7 @@
         <!--
         <link rel="canonical" href="http://www.example.com/" >
         -->
-
+    
         <!-- Add to homescreen for Chrome on Android -->
         <!--
         <meta name="mobile-web-app-capable" content="yes">
@@ -41,15 +41,86 @@
         <!--
         <script>(function(a,b,c){if(c in b&&b[c]){var d,e=a.location,f=/^(a|html)$/i;a.addEventListener("click",function(a){d=a.target;while(!f.test(d.nodeName))d=d.parentNode;"href"in d&&(d.href.indexOf("http")||~d.href.indexOf(e.host))&&(a.preventDefault(),e.href=d.href)},!1)}})(document,window.navigator,"standalone")</script>
         -->
+        
+        <!-- SMART FORMS CSS AND FONTS-->
+            <link rel="stylesheet" type="text/css"  href="css/smart-forms.css">
+            <link rel="stylesheet" type="text/css"  href="css/smart-themes/red.css">    
+            <link rel="stylesheet" type="text/css"  href="css/font-awesome.min.css">
+        
+        <!-- OPTIONS FOR SMART FORMS-->
+            <!--[if lte IE 9]>
+               <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>    
+                <script type="text/javascript" src="js/jquery.placeholder.min.js"></script>
+            <![endif]-->    
 
+            <!--[if lte IE 8]>
+                <link type="text/css" rel="stylesheet" href="css/smart-forms-ie8.css">
+            <![endif]-->
+        
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.7.1.min.js"></script>
     </head>
-    <body>
+    <body class="woodbg">
+
 
         <!-- Add your site or application content here -->
+                        <!-- START -->    
 
+<div id="status">
+</div>
+        <!-- SMART FORMS LOGIN -->
+        <div class="smart-wrap">
+    	<div class="smart-forms smart-container wrap-3">
+        
+        	<div class="form-header header-red">
+            	<h4><!--<i class="fa fa-sign-in">--></i>PowerBuilder</h4>
+          </div><!-- end .form-header section -->
+            
+            <form method="post" action="/" id="contact">
+            	<div class="form-body theme-red">
+                    
+                    <div class="spacer-t30 spacer-b30">
+                    	<div class="tagline"><span> OR  Login </span></div><!-- .tagline -->
+                    </div>
+                    
+                    <div class="section">
+                        <label class="field prepend-icon">
+                            <input type="text" name="username" id="username" class="gui-input" placeholder="Enter username">
+                            <span class="field-icon"><i class="fa fa-user"></i></span>  
+                        </label>
+                    </div><!-- end section -->                    
+                    
+                	<div class="section">
+                    	<label class="field prepend-icon">
+                        	<input type="text" name="password" id="password" class="gui-input" placeholder="Enter password">
+                            <span class="field-icon"><i class="fa fa-lock"></i></span>  
+                        </label>
+                    </div><!-- end section -->  
+                    
+                	<div class="section">
+                        <label class="switch switch-red block">
+                            <input type="checkbox" name="remember" id="remember" checked>
+                            <span class="switch-label" for="remember" data-on="YES" data-off="NO"></span> 
+                            <span> Keep me logged in ?</span>
+                        </label>
+                    </div><!-- end section -->                                                          
+                    
+                </div><!-- end .form-body section -->
+                <div class="form-footer">
+                	<button type="submit" class="button btn-red">Sign in</button>
+                </div><!-- end .form-footer section -->
+            </form>
+            
+        </div><!-- end .smart-forms section -->
+    </div><!-- end .smart-wrap section -->
+    
+    <div></div><!-- end section -->
+        
+        
+        
+                        <!-- END -->
+        <!-- Add your site or application content here -->
         <script src="js/vendor/jquery-2.1.0.min.js"></script>
         <script src="js/helper.js"></script>
         <script src="js/main.js"></script>

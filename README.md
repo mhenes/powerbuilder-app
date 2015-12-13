@@ -16,5 +16,13 @@ Features:
  * Workout/Rest Days
 * Progress Reports
 * Comparison Reports of Tracking
+* Muscle Imbalances
+* Joint Mobility
+* GUI
+* Analysis of Training Trends for Predicting Performance Outcomes.
 
 ## Install Instructions - Read INSTALL.txt
+
+Open Source code provided for individual use.
+
+Visit PowerBuilder.me for the online paid service.

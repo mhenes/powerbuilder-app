@@ -25,4 +25,6 @@ Features:
 
 Open Source code provided for individual use.
 
-Visit PowerBuilder.me for the online paid service.
+Visit PowerBuilder.me for the online premium version.
+
+Sign-up and registration is now available on the PowerBuilder website.
